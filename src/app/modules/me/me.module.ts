@@ -2,14 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MeRoutingModule } from './me-routing.module';
-import { AboutComponent } from './pages/about/about.component';
-import { WorksComponent } from './pages/works/works.component';
+import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { WorksPageComponent } from './pages/works-page/works-page.component';
 
 
 @NgModule({
   declarations: [
-    AboutComponent,
-    WorksComponent
+    AboutPageComponent,
+    WorksPageComponent
   ],
   imports: [
     CommonModule,
